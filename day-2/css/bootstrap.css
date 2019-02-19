@@ -1,0 +1,93 @@
+body *{
+	box-sizing: border-box;
+}
+body{
+	background-color: rgba(173,216,230,1);
+	margin: 15px;
+}
+
+th, label{ 
+	font-family: 'work_sansbold';
+}
+tr, input{
+	font-family: 'work_sansregular';
+}
+textarea{
+	font-family: 'work_sansregular';
+}
+.img-responsive{
+	height: 10px;
+	width: 10px;
+}
+.form_content{
+	border: 1px solid black;
+	background-color: rgb(227, 147, 147);
+	padding: 5px;
+	display: block;
+}	
+.btn_align{
+	text-align: center;
+}
+/* Center the loader */
+#loader {
+	content: url(../image/loader.gif);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+	from { bottom:-100px; opacity:0 } 
+	to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+	from{ bottom:-100px; opacity:0 } 
+	to{ bottom:0; opacity:1 }
+}
+#myDiv {
+	display: none;
+}
+/*for font bold and regular*/
+@font-face {
+	font-family: 'work_sansregular';
+	src: url('../fonts/worksans-regular-webfont.eot');
+	src: url('../fonts/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/worksans-regular-webfont.woff2') format('woff2'),
+	url('../fonts/worksans-regular-webfont.woff') format('woff'),
+	url('../fonts/worksans-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'work_sansbold';
+	src: url('../fonts/worksans-bold-webfont.eot');
+	src: url('../fonts/worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/worksans-bold-webfont.woff2') format('woff2'),
+	url('../fonts/worksans-bold-webfont.woff') format('woff'),
+	url('../fonts/worksans-bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,192 @@
+/*body section*/
+body *{
+	box-sizing: border-box;
+}
+body{
+	background-color: rgba(173,216,230,1);
+	margin: 15px;
+}
+/*for table css*/
+table{
+	border-collapse: collapse;
+	width:100%;
+	background-color:
+	padding: 10px;
+
+}
+table, th, td{
+	border: 1px solid black;
+	text-align: left;
+	padding: 10px;
+}
+th{ 
+	padding: 5px; 
+	font-family: 'work_sansbold';
+	background-color: #008CBA;
+}
+tr{
+	font-family: 'work_sansregular';
+}
+tr:nth-child(even) {
+	background-color: #eee;
+}
+tr:nth-child(odd){
+	background-color: #fff;
+}
+/*for form*/
+.form_content{
+	margin: 20px auto;
+	background-color: rgb(227, 147, 147);
+	border: 1px solid black;
+	width: 600px;
+	display: block; 
+}
+label{
+	/*width: 100%;*/
+	display: block;
+	padding: 1px;
+	margin: 10px;
+	font-family: 'work_sansbold';
+}
+span{
+	display: block;
+}
+input[type=text]{
+	width: 100%;
+	padding: 8px 12px;
+	box-sizing: border-box;
+	border: 1px solid;
+	border-radius: 4px;
+	margin:10px auto;
+	display: block;
+	font-family: 'work_sansregular';
+}
+input[type=email]{
+	width: 100%;
+	padding: 8px 12px;
+	box-sizing: border-box;
+	border: 1px solid;
+	border-radius: 4px;
+	margin:10px auto;
+	display: block;
+	font-family: 'work_sansregular';
+}
+.input_content{
+	padding: 11px;
+}
+textarea {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+	display: block;
+	font-family: 'work_sansregular';
+}
+/*for font bold and regular*/
+@font-face {
+	font-family: 'work_sansregular';
+	src: url('../fonts/worksans-regular-webfont.eot');
+	src: url('../fonts/worksans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/worksans-regular-webfont.woff2') format('woff2'),
+	url('../fonts/worksans-regular-webfont.woff') format('woff'),
+	url('../fonts/worksans-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'work_sansbold';
+	src: url('../fonts/worksans-bold-webfont.eot');
+	src: url('../fonts/worksans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/worksans-bold-webfont.woff2') format('woff2'),
+	url('../fonts/worksans-bold-webfont.woff') format('woff'),
+	url('../fonts/worksans-bold-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+/* Center the loader */
+#loader {
+	content: url(../image/loader.gif);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+	from { bottom:-100px; opacity:0 } 
+	to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+	from{ bottom:-100px; opacity:0 } 
+	to{ bottom:0; opacity:1 }
+}
+#myDiv {
+	display: none;
+}
+/*button section*/
+img{
+	height: 15px;
+	width: 15px;	
+}
+.btn1{
+	background-color: #008CBA;
+	border-radius: 5px;
+	border:none;
+	padding: 8px;
+	margin: 8px;
+}
+
+/*After before*/
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"] + label:before{
+	content: "";
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	position :absolute;
+	left: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../images/custom_checkbox_3.png");
+}
+input[type="checkbox"] + label {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+input[type="checkbox"]:checked + label:before {
+    background-position: -23px 0px;
+}

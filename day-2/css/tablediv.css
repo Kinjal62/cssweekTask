@@ -1,0 +1,20 @@
+	
+.div_table{
+	display: table;
+	width: auto;
+	background-color: #eee;
+	border:1px solid black;
+	margin: 60px auto;
+}
+.div_row{
+	display: table-row;
+	width: auto;
+}
+.table_data{
+	float: left;
+	display: table-column;
+	border: 1px solid black;
+	width: 200px;
+	padding: 5px;
+	border-width: thin;
+}

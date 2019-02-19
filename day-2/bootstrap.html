@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="javascript/loader.js"></script>
+</head>
+<body onload="myFunction()">
+	<div id="loader"></div>
+
+	<div id="myDiv" class="animate-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 table-responsive">
+					<table class="table table-boredred">
+						<caption class="text-center">Emp details:</caption>
+						<tr class="danger">
+							<th>F.name</th>
+							<th>L.name</th>
+							<th>Email</th>
+						</tr>
+						<tr class="info">
+							<td>Kinjal</td>
+							<td>Virani</td>
+							<td>khvce62@gmail.com</td>
+						</tr>
+						<tr class="warning">
+							<td>Tanvi</td>
+							<td>Dave</td>
+							<td>tanvidave@gmail.com</td>
+						</tr>
+						<tr class="info">
+							<td>Meera</td>
+							<td>Bhardiya</td>
+							<td>meerabhardiya@gmail.com</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="row"> 
+				<div class="col-sm-4 col-sm-offset-4">
+					<form class="form_content">
+						
+						<div class="col-sm-6 form-group">
+							<label>First Name</label>
+							<input type="text" class="form-control"  name="fname">
+						</div>
+						
+						<div class="col-sm-6 form-group">
+							<label>Last Name</label>
+							<input type="text" class="form-control" name="lname">
+						</div>
+						
+						<div class="col-sm-12 form-group">
+							<label>Email</label>
+							<input type="email" class="form-control" name="email">
+						</div>
+						<div class="col-sm-6">
+							<label>Gender</label>
+							<div class="radio">
+								<label><input type="radio" name="optradio">Male</label>	
+							</div>
+							<div class="radio">
+								<label><input type="radio" name="optradio">Female</label>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<label>Technology</label>	
+							<div class="checkbox">
+								<label class="checkbox-inline"><input type="checkbox" value="">Java</label>
+							</div>
+							<div class="checkbox">
+								<label class="checkbox-inline"><input type="checkbox" value="">PHP</label>
+							</div>
+							<div class="checkbox">
+								<label class="checkbox-inline"><input type="checkbox" value="">Python</label>
+							</div>
+						</div>
+
+						<div class="col-sm-12 form-group">
+							<label>About Me</label>
+							<textarea type="text" class="form-control" rows="5" placeholder="write something..."></textarea>
+						</div>
+						<div class="btn_align">
+							<button type="button" class="btn btn-primary">Save<span class="glyphicon glyphicon-bookmark"></span></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
