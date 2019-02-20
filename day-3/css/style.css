@@ -32,6 +32,7 @@
   border-right: 2px solid white;
   height: 25px;
   font-weight: bolder; 
+  font-family: 'roboto_regular';
 }
 .topRight a:last-child{
   border-right: none; 
@@ -66,6 +67,7 @@ li{
     padding: 8px 25px;
     color: #333;
     text-decoration: none;
+    font-family: 'roboto_regular';
   }
 
   .nav1{
@@ -101,10 +103,11 @@ li{
 
   .dropdown:hover .dropdown-content {display: block;}
 
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  
 
   .search-container{
     float: right;
+    font-family: 'robotobold';
   }
   .search-container button {
     float: right;
@@ -117,6 +120,7 @@ li{
   }
   .tab_content{
     padding: 16px;
+    font-family: 'robotobold';
   }
   .tab-content{
     padding: 5px;
@@ -143,4 +147,26 @@ li{
   top: 10px;
   right: 10px;
   position: fixed;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('roboto-bold-webfont.eot');
+    src: url('roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-bold-webfont.woff2') format('woff2'),
+         url('roboto-bold-webfont.woff') format('woff'),
+         url('roboto-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto_regular';
+    src: url('roboto-regular-webfont.eot');
+    src: url('roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff'),
+         url('roboto-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
