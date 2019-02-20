@@ -1,0 +1,146 @@
+.header_content, .bottom_header{
+  background-color: #333;
+  height: 80px;
+  padding: 20px;
+  margin: 1px;
+}
+.top_header .fab, .contact .fas{
+  margin-right: 10px;
+}
+.top_header, .logo{
+  float: left;
+}
+.logo{
+  display: block;
+}
+.contact, .right_header{
+  float: right;
+}
+.contact a{
+  padding: 5px;
+}
+.bottom_header{
+  background-color: #666;
+}
+.img_logo{
+  height: 50px; 
+  width: 90px;
+}
+.topRight a{
+  display: inline;
+  padding: 10px;
+  border-right: 2px solid white;
+  height: 25px;
+  font-weight: bolder; 
+}
+.topRight a:last-child{
+  border-right: none; 
+}
+/*ul {
+  list-style-type: none;
+}
+li a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li{
+  display: inline;
+  }*/
+  .fab{
+    font-size:30px;
+  }
+  ul{
+    padding: 0;
+    list-style: none;
+
+  }
+  ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+  }
+  ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .nav1{
+    float: right;
+    padding: 20px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .search-container{
+    float: right;
+  }
+  .search-container button {
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .tab_content{
+    padding: 16px;
+  }
+  .tab-content{
+    padding: 5px;
+    top: 0;
+  }
+  .img_tab{
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: auto;
+   position: absolute;
+   transition: all 1s;
+ }
+ .img_box{
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.img_tab img{
+  width: 100%;
+}
+.alert{
+  top: 10px;
+  right: 10px;
+  position: fixed;
+}

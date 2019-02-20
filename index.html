@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'>
+	<!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./javaScript/index.js"></script>
+
+</head>
+<body>
+	<header>
+		<div class="header_content">
+			<div class="top_header">
+				<a href="" data-toggle="tooltip" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+				<a href="" data-toggle="tooltip" title="Instagram"><i class="fab fa-instagram"></i></a>
+				<a href="" data-toggle="tooltip" title="Twitter"><i class="fab fa-twitter"></i></a>
+			</div>
+			<div class="contact topRight">
+				<a href="tel:9408323470"><i class="fas fa-mobile-alt"></i>9408323470</a>
+				<a href="mailto:khvce62@gmail.com"><i class="fas fa-envelope"></i>khvce62@gmail.com</a>
+			</div>
+		</div>
+	</header>
+	<section>
+		<nav>
+			<div class="bottom_header">
+				<div class="logo">
+					<img class="img_logo" src="images/logo.png" alt="logo">
+				</div>
+				<div class="right_header">
+					<ul class="nav1">
+						<li><a href="#home">Home</a></li>
+						<li><a class="dropbtn" onclick="myFunction()">Solution
+							<i class="fa fa-caret-down"></i>
+						</a>
+					</li>
+						<li class="dropdown">
+							<a class="dropbtn">Services<i class="fa fa-caret-down"></i></a>
+							<div class="dropdown-content" id="myDropdown">
+								<a href="#">Link 1</a>
+								<a href="#">Link 2</a>
+								<a href="#">Link 3</a>
+							</div></li>
+						<!-- <li><a href="">Home</a></li>
+						<li class="dropdown">
+							<a onclick="myFunction()" class="dropbtn">Solution<span class="caret"></span></a>
+							<div id="myDropdown" class="dropdown-content"">	
+								<a href="">solution 1</a>
+								<a href="">Solution 2</a>
+								<a href="">Solution 3</a>
+							</div>	
+						</li>
+						<li class="dropdown1">
+							<a href="#" class="dropbtn">Service<span class="caret"></span></a>
+							<div class="dropdown-content">
+								<a href="">Service 1</a>
+								<a href="">Service 2</a>
+								<a href="">Service 3</a>
+							</div>	
+						</li> -->
+						<li class="search-container">
+							<form>
+								<input type="text" placeholder="Search.." name="search" id="search">
+								<button type="submit" class="search_btn"><i class="fa fa-search"></i></button>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<section>
+			<div class="tab_content">
+				<ul class="nav nav-tabs">
+					<li class="active"><a data-toggle="tab" href="#tab-1">Tab-1</a></li>
+					<li><a data-toggle="tab" href="#tab-2">Tab-2</a></li>
+					<li><a data-toggle="tab" href="#tab-3">Tab-3</a></li>
+					<li class="disabled"><a data-toggle="tab" href="#tab-4">Tab-4</a></li>
+				</ul>
+				<div class="tab-content">
+					<div id="tab-1" class="tab-pane fade in active">
+						<div class="img_box">
+							<div class="img_tab">
+								<img src="images/tab1.jpeg" class="img-responsive" alt="image1">
+							</div>
+						</div>
+					</div>
+					<div id="tab-2" class="tab-pane fade">
+						<div class="img_box">
+							<div class="img_tab">
+								<img src="images/tab2.jpeg" class="img-responsive" alt="image2">
+							</div>
+						</div>
+					</div>
+					<div id="tab-3" class="tab-pane fade">
+						<div class="img_box">
+							<div class="img_tab">
+								<img src="images/tab3.jpeg" class="img-responsive" alt="image3">
+							</div>
+						</div>
+					</div>
+					<div id="tab-4" class="tab-pane fade">
+						<div class="img_box">
+							<div class="img_tab">
+								<img src="images/tab3.jpeg" class="img-responsive" alt="image4">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+	</html>
