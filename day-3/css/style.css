@@ -149,7 +149,6 @@ li{
        right: 0;
        bottom: auto;
        position: absolute;
-       height: 900px;
        transition: all 1s;
      }
      .img_box{
