@@ -1,0 +1,62 @@
+body{
+	background-color: #D3D3D3;
+}
+.main{
+	padding:20px;
+}
+.bgimg{
+	background-image: url(../image/bgimg.jpeg);
+	border: 1px solid blue;
+	padding: 10px;
+}
+.name{
+	margin: 30px 0px 20px 60px;
+	border: 1px solid;
+	width:10%;
+	padding: 2px;
+	background-color: rgba(128,128,128,0.9);
+	
+}
+.button{
+	border-radius: 10px;
+	background-color: #4CAF50;
+	text-align: center;
+	border: none;
+	margin:3px;
+}
+.row{
+	margin-top: 5px;
+	border: 1px solid grey;
+}
+
+.caption{
+	padding: 15px;
+	margin-left: 15px;	
+	font-family: "work-sans";
+}
+.footer_contain{
+	background-color: black;
+	color: #ffffff;
+	margin-bottom: 0;
+	padding: 5px;
+}
+.footer_contain p{
+	text-align: center;
+	
+}
+.fa-star {
+	-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(359deg);
+	}
+}
+@font-face{
+	font-family: "work-sans";
+	src: url(../fonts/work-sans/WorkSans-Bold.otf);
+}
